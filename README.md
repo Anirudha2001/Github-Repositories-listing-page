@@ -7,9 +7,7 @@ MyGithubSearchApp is a web application built with Angular that allows users to s
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
+- [Deployment](#deployment)
 
 ## Features
 
@@ -22,4 +20,31 @@ MyGithubSearchApp is a web application built with Angular that allows users to s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/my-github-search-app.git
+   git clone https://github.com/Anirudha2001/my-github-search-app.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd github-repositories-viewer
+   
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Run the application:
+   ```bash
+   ng serve
+
+## Usage
+
+- Enter a GitHub username in the search bar.
+- Click the search button to fetch the user's public repositories.
+- Navigate through the paginated list of repositories.
+
+## Deployment
+
+The application is deployed to Vercel. Visit the deployed site here.[Link](https://github-repositories-listing-page-pi.vercel.app)
+
+
+
+
+
